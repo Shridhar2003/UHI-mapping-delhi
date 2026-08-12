@@ -6,22 +6,24 @@ A remote sensing pipeline that processes Landsat 8 and Sentinel-2 satellite imag
 
 ## Architecture
 
+```
 Google Earth Engine (Landsat 8 + Sentinel-2, 2019–2024)
-↓
+         ↓
 Satellite Indices — LST · NDVI · NDBI
 (6 years × 3 indices = 18 rasters + 6 derived)
-↓
+         ↓
 Google Cloud Storage
 ├── rasters/   ← 24 GeoTIFF exports
 └── results/   ← statistics, plots, sites
-↓
+         ↓
 Vertex AI Workbench (Python)
 ├── Pearson correlation (NDVI/NDBI vs LST)
 ├── Linear regression
 ├── Change detection (2019 → 2024)
 └── Hotspot scoring & site selection
-↓
+         ↓
 Heat Mitigation Map — 10 Miyawaki forest priority sites
+```
 
 
 ---
