@@ -67,7 +67,7 @@ Hotspot score = `0.4×LST_norm + 0.3×NDBI_norm + 0.3×(1 − NDVI_norm)`
 
     UHI-mapping-delhi/
     ├── gee/
-    │   └── uhi_gee_script.js
+    │   └── lst-ndbi-ndvi.js
     ├── notebooks/
     │   └── UHI-mapping-delhi.ipynb
     ├── results/
