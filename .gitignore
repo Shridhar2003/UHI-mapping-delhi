@@ -1,0 +1,6 @@
+config.json
+*.tif
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
