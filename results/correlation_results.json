@@ -1,0 +1,29 @@
+{
+  "random_seed": 1849928102,
+  "sample_size": 10000,
+  "non_covid_pixels": 7618864,
+  "covid_pixels": 3809432,
+  "NDVI_vs_LST": {
+    "pearson_r": -0.4779,
+    "r_squared": 0.2283,
+    "p_value": 0.0,
+    "regression_intercept": 47.657,
+    "regression_slope": -11.2676,
+    "std_error": 0.2072
+  },
+  "NDBI_vs_LST": {
+    "pearson_r": 0.6675,
+    "r_squared": 0.4456,
+    "p_value": 0.0,
+    "regression_intercept": 44.0501,
+    "regression_slope": 28.1412,
+    "std_error": 0.3139
+  },
+  "COVID_analysis": {
+    "pearson_r": -0.3875,
+    "p_value": 0.0,
+    "mean_lst_covid": 42.366,
+    "mean_lst_non_covid": 44.615,
+    "covid_cooling_effect_celsius": 2.249
+  }
+}
